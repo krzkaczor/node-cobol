@@ -140,6 +140,7 @@ Runs COBOL code from Node.JS side.
  - `cwd` (String): Where the COBOL code will run (by default in the current working directory)
  - `args` (Array): An array of strings to pass to the COBOL process.
  - `free` (Boolean): Use free option while compiling with GnuCobol
+ - `cobcArgs` (String): Additional args passed to GnuCobol
  - `stdin` (Stream): An optional stdin stream used to pipe data to the stdin stream of the COBOL process.
  - `stderr` (Stream): An optional stderr stream used to pipe data to the stdin stream of the COBOL process.
  - `stdeout` (Stream): An optional stdout stream used to pipe data to the stdin stream of the COBOL process.
